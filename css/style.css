@@ -1,3 +1,102 @@
 body {
+	margin: 0;
+	padding: 0;
 	font-family: 'Shadows Into Light', cursive;
 }
+
+ul{
+	list-style-type: none;
+	padding: 0 8px;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	padding:25px;
+	letter-spacing: 2px;
+}
+
+nav {
+	display: fixed;
+	background-color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 60px;
+	box-shadow: 10px 10px 10px #4251f5;
+	position: fixed;
+
+
+	/* atas kanan bwah kiri*/
+	padding: 10px 10px 10px 10px;
+	
+}
+
+nav img{
+	height: 50px;
+	padding: 10px;
+	width: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.no-body{
+	height: 60px;
+}
+
+.section{
+	padding: 40px;
+
+}
+
+.section{
+	padding-bottom: 0;
+}
+
+#info_utama{
+	display: flex;
+}
+
+#identitas{
+	width: 50%;
+}
+
+#identitas p{
+	font-size: 14px;
+	color: #404040;
+	text-align: justify;
+	line-height: 24px;
+}
+
+#image {
+	width: 50%;
+}
+
+#image img {
+	width: 100%;
+	border-radius: 1rem;
+	box-shadow: 0px 12px 20px #ddd;
+	
+}
+
+.call-me {
+	padding: 12px 32px;
+	background-color: #ffffff;
+	color: #ff7b51;
+	margin-top: 16px;
+	border-radius: 32px;
+	border: 1px solid #ff7b51;
+
+	transition: 0.3s;
+}
+
+.call-me:hover {
+	box-shadow: 0px 10px 20px #ddd;
+	background-color: #ff7b51;
+	color: white;
+	transition: 0.3s;
+}
+
